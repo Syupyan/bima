@@ -1,0 +1,223 @@
+/* div {
+    border: 2px solid salmon;
+} */
+.container {
+    width: 1080px;
+}
+
+.container .header {
+    display: flex;
+    border-bottom: 5px solid black;
+}
+
+.container .header .gambar {
+    width: 10%;
+    height: 110px;
+    padding: 50px;
+    box-sizing: content-box;
+}
+
+.container .header .gambar img {
+    width: 100%;
+    margin: auto;
+}
+
+.container .header .text {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 5px;
+}
+
+.container .header div {
+    width: 20%;
+}
+
+.container .main .judul {
+    display: flex;
+}
+
+.container .main .judul .kiri {
+    width: 25%;
+}
+
+.container .main .judul .kanan {
+    width: 25%;
+}
+
+.container .main .judul .text {
+    margin: 25px auto;
+    line-height: 1px;
+}
+
+.container .main .judul .text .atas {
+    margin: 25px auto 0.1px;
+    font-size: 18px;
+    border-bottom: 2px solid black center;
+    line-height: 1px;
+}
+
+.container .main .judul .text .bawah {
+    margin: auto;
+    text-align: center;
+    line-height: 0.2px;
+}
+
+.container .main .isi {
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.container .main .isi .text {
+    font-size: 20px;
+}
+
+.container .main .isi .text .username,
+.alamat,
+.org,
+.indpen,
+.ktps {
+    display: flex;
+}
+
+.container .main .isi .text .username li {
+    width: 18%;
+}
+
+.container .main .isi .text .username .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .isi .text .alamat li {
+    width: 18%;
+}
+
+.container .main .isi .text .alamat .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .isi .text .org li {
+    width: 18%;
+}
+
+.container .main .isi .text .org .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .isi .text .org .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .isi .text .indpen li {
+    width: 18%;
+}
+
+.container .main .isi .text .indpen .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .isi .text .ktps li {
+    width: 18%;
+}
+
+.container .main .isi .text .ktps .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .isi .text .hari,
+.tanggal,
+.waktu,
+.tempat,
+.keperluan {
+    display: flex;
+}
+
+.container .main .isi .text .hari li {
+    width: 18%;
+}
+
+.container .main .isi .text .hari .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .isi .text .tanggal li {
+    width: 18%;
+}
+
+.container .main .isi .text .tanggal .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .isi .text .waktu li {
+    width: 18%;
+}
+
+.container .main .isi .text .waktu .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .isi .text .tempat li {
+    width: 18%;
+}
+
+.container .main .isi .text .tempat .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .isi .text .keperluan li {
+    width: 18%;
+}
+
+.container .main .isi .text .keperluan .isi {
+    display: flex;
+    width: 82%;
+}
+
+.container .main .ttd {
+    display: flex;
+    margin-right: 5%;
+}
+
+.container .main .ttd .kiri {
+    width: 50%;
+}
+
+.container .main .ttd .main {
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1px;
+}
+
+.container .main .ttd .main .sign {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.container .main .ttd .main .sign img {
+    width: 150px;
+    height: 150px;
+    z-index: 3;
+    margin-top: -50px;
+}
+
+.container .main .ttd .main .bawah b {
+    text-decoration: underline;
+}
+
+.container .footer {
+    margin-left: 5%;
+    font-size: 20px;
+}
